@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npm uninstall *)",
+      "Bash(npm run *)",
+      "Bash(npx playwright *)",
+      "Bash(node verify.js)",
+      "Bash(node verify2.js)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s \"http://localhost:5173/src/index.css\")",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(powershell *)",
+      "Bash(curl -s \"http://localhost:8080/src/index.css\")",
+      "Bash(node verify3.js)",
+      "Bash(ipconfig)",
+      "Bash(findstr \"IPv4\")",
+      "Bash(node verify-final.js)",
+      "WebFetch(domain:minimax-algeng-chat-tts-us.oss-east-1.aliyuncs.com)",
+      "Bash(timeout 5)"
+    ]
+  }
+}
